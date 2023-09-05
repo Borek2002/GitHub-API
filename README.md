@@ -8,6 +8,6 @@ When we run this operation:
 ```bash
  http://localhost:8080/userRepositories?username={your username}
 ```
-we get user's respositories with the data mentioned in the description.
-When consumer given not existing github user, I would like to receive 404 response.
+We get user's respositories with the data mentioned in the description. <br>
+When consumer given not existing github user, I would like to receive 404 response. <br>
 When consumer given header “Accept: application/xml”, I would like to receive 406 response.
